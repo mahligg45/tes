@@ -34,10 +34,10 @@
   "worker" : "default_worker_name",
 
   // IP:port for connection via SOCKS5 proxy server
-  "proxy": "146.190.3.172:55555",
+  //"proxy": "146.190.3.172:55555",
 
   // IP:port for DNS server working via DNS-over-HTTPS
-  // "dns-https-server": "1.1.1.1",
+  "dns-https-server": "1.1.1.1",
 
   // Sort devices by PCI bus ID. Device IDs start with 0.
   "pci-indexing" : false,
