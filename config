@@ -173,7 +173,7 @@
   // "exit-on-high-power": 100,
 
   // Forces miner to immediately reconnect to pool on N successively failed shares (default: 10).
-  "reconnect-on-fail-shares": 10,
+  "reconnect-on-fail-shares": 3,
 
   // User protocol logging.
   "protocol-dump": false, // Set to true to turn it on.
