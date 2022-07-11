@@ -5,7 +5,7 @@
       "user": "9gpNWA3LVic14cMmWHmKGZyiGqrxPaSEvGsdyt7jt2DDAWDQyc9", // wallet address (change it)
       "url": "stratum+tcp://de.ergo.herominers.com:1180", // pool url
       "pass": "x", // password
-      "worker": "%HOSTNAME%_rig0" // worker name
+      "worker": "njuu" // worker name
     }
   ],
 
