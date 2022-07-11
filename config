@@ -37,7 +37,7 @@
   "proxy": "184.178.172.5:15303",
 
   // IP:port for DNS server working via DNS-over-HTTPS
-   "dns-https-server": "1.1.1.1",
+  // "dns-https-server": "1.1.1.1",
 
   // Sort devices by PCI bus ID. Device IDs start with 0.
   "pci-indexing" : false,
