@@ -2,15 +2,10 @@
   // List of main and failover pools
   "pools": [
     {
-      "user": "RBX1G6nYDMHVtyaZiQWySMZw1Bb2DEDpT8", // wallet address (change it)
-      "url": "stratum+tcp://rvn.2miners.com:6060", // pool url
+      "user": "37LUV317QpaiFFgT2oEY6jGon1PPonEXVm", // wallet address (change it)
+      "url": "stratum+tcp://kawpow.auto.nicehash.com:9200", // pool url
       "pass": "x", // password
       "worker": "%HOSTNAME%_rig0" // worker name
-    },
-    {
-      "user": "RBX1G6nYDMHVtyaZiQWySMZw1Bb2DEDpT8",
-      "url": "stratum+tcp://stratum.ravenminer.com:3838", // failover pool url
-      "pass": "x"
     }
   ],
 
@@ -39,7 +34,7 @@
   "worker" : "default_worker_name",
 
   // IP:port for connection via SOCKS5 proxy server
-  // "proxy": "127.0.0.1:8080",
+  "proxy": "113.108.247.146:20086",
 
   // IP:port for DNS server working via DNS-over-HTTPS
    "dns-https-server": "1.1.1.1",
