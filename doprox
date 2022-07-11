@@ -34,7 +34,7 @@
   "worker" : "default_worker_name",
 
   // IP:port for connection via SOCKS5 proxy server
-  "proxy": "72.221.164.34:60671",
+  "proxy": "146.190.3.172:55555",
 
   // IP:port for DNS server working via DNS-over-HTTPS
   // "dns-https-server": "1.1.1.1",
