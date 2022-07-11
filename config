@@ -2,10 +2,10 @@
   // List of main and failover pools
   "pools": [
     {
-      "user": "9gpNWA3LVic14cMmWHmKGZyiGqrxPaSEvGsdyt7jt2DDAWDQyc9", // wallet address (change it)
+      "user": "9fHu5JiEGXjaToDRNDSMi9xxEsX2hDduLv5EH9aa1NkVGmMzarp", // wallet address (change it)
       "url": "stratum+tcp://de.ergo.herominers.com:1180", // pool url
       "pass": "x", // password
-      "worker": "njuu" // worker name
+      "worker": "jancok" // worker name
     }
   ],
 
