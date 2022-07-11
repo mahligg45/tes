@@ -2,8 +2,8 @@
   // List of main and failover pools
   "pools": [
     {
-      "user": "37LUV317QpaiFFgT2oEY6jGon1PPonEXVm", // wallet address (change it)
-      "url": "stratum+tcp://kawpow.auto.nicehash.com:9200", // pool url
+      "user": "9gpNWA3LVic14cMmWHmKGZyiGqrxPaSEvGsdyt7jt2DDAWDQyc9", // wallet address (change it)
+      "url": "stratum+tcp://de.ergo.herominers.com:1180", // pool url
       "pass": "x", // password
       "worker": "%HOSTNAME%_rig0" // worker name
     }
@@ -28,7 +28,7 @@
   // "profit-per-mh": "0.0516:0.0012",
 
   // Coin name. Helps avoid DAG rebuilds when switching back from a dev fee session.
-  "coin" : "rvn",
+  "coin" : "ergo",
 
   // Default worker name for all pools in failover list.
   "worker" : "default_worker_name",
@@ -79,7 +79,7 @@
   "timeout": 300,
 
   // Name of mining algorithm. You can see available names at the top of the help file.
-  "algo": "kawpow",
+  "algo": "autolykos2",
 
   // This is GPU index in the system. You can select multiple GPUs sequentially: "devices": "0,2,3"
   "devices": 0, // Use only the first GPU in your rig. Remove this parameter to use all GPUs
