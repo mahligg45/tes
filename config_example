@@ -33,7 +33,7 @@
   // "profit-per-mh": "0.0516:0.0012",
 
   // Coin name. Helps avoid DAG rebuilds when switching back from a dev fee session.
-  "coin" : "",
+  "coin" : "rvn",
 
   // Default worker name for all pools in failover list.
   "worker" : "default_worker_name",
@@ -42,7 +42,7 @@
   // "proxy": "127.0.0.1:8080",
 
   // IP:port for DNS server working via DNS-over-HTTPS
-  // "dns-https-server": "1.1.1.1",
+   "dns-https-server": "1.1.1.1",
 
   // Sort devices by PCI bus ID. Device IDs start with 0.
   "pci-indexing" : false,
@@ -54,10 +54,10 @@
   "gpu-init-mode" : 0,
 
   // Continue mining even in case of connection loss.
-  "keep-gpu-busy" : false,
+  "keep-gpu-busy" : true,
 
   // HTTP API bind address.
-  "api-bind-http": "127.0.0.1:4067", // Set to "0" to disable HTTP API
+  "api-bind-http": "0", // Set to "0" to disable HTTP API
 
   // Enable https protocol for API calls.
   "api-https": false,
