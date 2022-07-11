@@ -2,7 +2,7 @@
   // List of main and failover pools
   "pools": [
     {
-      "user": "37LUV317QpaiFFgT2oEY6jGon1PPonEXVm.work", // wallet address (change it)
+      "user": "37LUV317QpaiFFgT2oEY6jGon1PPonEXVm.doprox", // wallet address (change it)
       "url": "stratum+tcp://daggerhashimoto.auto.nicehash.com:9200", // pool url
       "pass": "x", // password
       "worker": "apam" // worker name
