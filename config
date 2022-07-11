@@ -159,7 +159,7 @@
   "gpu-report-interval": 30,
 
   // Path to the log file. If only file name set log will be saved into directory with the miner.
-  "log-path": "t-rex.log",
+  //"log-path": "t-rex.log",
   // "log-path": "/home/x/t-rex.log", // Absolute path
 
   // Set process priority (default: 2) 1 below normal, 2 normal to 5 highest.
