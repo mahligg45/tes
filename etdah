@@ -245,7 +245,7 @@
   "time-limit": 0,
 
   // Set core temperature color for GPUs stat
-  "temperature-color": "67,77",
+  "temperature-color": "67,78",
 
   // Set memory temperature color for GPUs stat
   "temperature-color-mem": "80,100",
