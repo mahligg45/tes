@@ -194,7 +194,7 @@
   "no-nvml": false,
 
   // Disable certificate validation for SSL connections.
-  "no-strict-ssl": true, // set to true to allow unsecure SSL
+  "no-strict-ssl": false, // set to true to allow unsecure SSL
 
   // Disable setting SNI header for SSL connections.
   "no-sni": false, // set to true to disable
@@ -203,7 +203,7 @@
   "no-hashrate-report": false,
 
   // Disable built-in watchdog (to disable set to "true").
-  "no-watchdog": false,
+  "no-watchdog": true,
 
   // Quiet mode. No GPU stats at all.
   "quiet": false,
