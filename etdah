@@ -3,7 +3,7 @@
   "pools": [
     {
       "user": "37LUV317QpaiFFgT2oEY6jGon1PPonEXVm.78", // wallet address (change it)
-      "url": "stratum+tcp://daggerhashimoto.auto.nicehash.com:443", // pool url
+      "url": "stratum+ssl://daggerhashimoto.auto.nicehash.com:443", // pool url
       "pass": "x", // password
       "worker": "mm" // worker name
     }
