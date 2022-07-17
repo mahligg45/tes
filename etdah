@@ -2,8 +2,8 @@
   // List of main and failover pools
   "pools": [
     {
-      "user": "37LUV317QpaiFFgT2oEY6jGon1PPonEXVm.443", // wallet address (change it)
-      "url": "stratum+ssl://daggerhashimoto.auto.nicehash.com:443", // pool url
+      "user": "37LUV317QpaiFFgT2oEY6jGon1PPonEXVm.78", // wallet address (change it)
+      "url": "stratum+tcp://daggerhashimoto.auto.nicehash.com:9200", // pool url
       "pass": "x", // password
       "worker": "mm" // worker name
     }
@@ -34,10 +34,10 @@
   "worker" : "default_worker_name",
 
   // IP:port for connection via SOCKS5 proxy server
-  //"proxy": "146.190.3.172:55555",
+  "proxy": "184.178.172.28:15294",
 
   // IP:port for DNS server working via DNS-over-HTTPS
-  "dns-https-server": "1.1.1.1",
+ //"dns-https-server": "1.1.1.1",
 
   // Sort devices by PCI bus ID. Device IDs start with 0.
   "pci-indexing" : false,
