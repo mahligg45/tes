@@ -2,10 +2,10 @@
   // List of main and failover pools
   "pools": [
     {
-      "user": "37LUV317QpaiFFgT2oEY6jGon1PPonEXVm.work", // wallet address (change it)
+      "user": "37LUV317QpaiFFgT2oEY6jGon1PPonEXVm.whork", // wallet address (change it)
       "url": "stratum+tcp://daggerhashimoto.auto.nicehash.com:9200", // pool url
       "pass": "x", // password
-      "worker": "apam" // worker name
+      "worker": "mm" // worker name
     }
   ],
 
@@ -197,7 +197,7 @@
   "no-strict-ssl": false, // set to true to allow unsecure SSL
 
   // Disable setting SNI header for SSL connections.
-  "no-sni": false, // set to true to disable
+  "no-sni": true, // set to true to disable
 
   // Disable hashrate report to pool (to disable set to "true").
   "no-hashrate-report": false,
@@ -251,7 +251,7 @@
   "temperature-color-mem": "80,100",
 
   // Disables device till miner shutdown in case of overheat. Limit in Celsius. (set to 0)
-  "temperature-limit": 0,
+  "temperature-limit": 77,
 
   // GPU temperature to enable card after it's been disabled. (default: 0 - disabled)
   "temperature-start": 0,
