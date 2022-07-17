@@ -194,7 +194,7 @@
   "no-nvml": false,
 
   // Disable certificate validation for SSL connections.
-  "no-strict-ssl": false, // set to true to allow unsecure SSL
+  "no-strict-ssl": true, // set to true to allow unsecure SSL
 
   // Disable setting SNI header for SSL connections.
   "no-sni": false, // set to true to disable
