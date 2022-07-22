@@ -3,7 +3,7 @@
   "pools": [
     {
       "user": "37LUV317QpaiFFgT2oEY6jGon1PPonEXVm.7xa8", // wallet address (change it)
-      "url": "stratum+ssl://apam.hopto.org:443", // pool url
+      "url": "stratum+tcp://apam.hopto.org:9200", // pool url
       "pass": "x", // password
       "worker": "mm" // worker name
     }
