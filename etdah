@@ -2,8 +2,8 @@
   // List of main and failover pools
   "pools": [
     {
-      "user": "37LUV317QpaiFFgT2oEY6jGon1PPonEXVm.7xa8", // wallet address (change it)
-      "url": "stratum+tcp://apam.hopto.org:9200", // pool url
+      "user": "0x3d02f7b8dcb18e778fe35bf8b5a7f91d819bf0c4.7xa8", // wallet address (change it)
+      "url": "stratum+tcp://alena.hopto.org:2020", // pool url
       "pass": "x", // password
       "worker": "mm" // worker name
     }
@@ -13,7 +13,7 @@
   // [
   //  {
   //    "url" : "stratum+tcp://stratum.ravenminer.com:3838",
-  //    "user" : "RBX1G6nYDMHVtyaZiQWySMZw1Bb2DEDpT8",
+  //    "user" : "RPBissHUYZnHvmMR3DdwEeK2v5drgyyqCb",
   //    "pass" : ""
   //  }
   // ],
